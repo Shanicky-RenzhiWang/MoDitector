@@ -1,0 +1,32 @@
+defaults:
+  - _self_
+  - server_configs: evaluator
+
+# root folders
+project_root: /home/erdos/workspace/ADSFuzzer
+save_root: /home/erdos/workspace/results/ADSFuzzer/debug_rl
+save_root_evaluator: ${save_root}/rl_evaluator
+
+# runner
+log_level: 'DEBUG'
+resume: true
+random_seed: 1000
+timeout: 600 # watchdog timeout
+debug: false
+record: false # carla record
+
+# dataset
+train_data_file: ${project_root}/data/train_rl/train_list_1.txt
+test_data_file: /none
+
+# env - evaluator agent
+entry_point_scenario: scenario.pattern:WaypointScenario
+entry_point_target_agent: ads.systems.RLRepair.Roach:ROACHAgent
+config_target_agent: ${project_root}/ads/systems/RLRepair/Roach/config/target_agent.yaml
+
+# env config
+gpu: 2
+
+hydra:
+  job:
+    chdir: True

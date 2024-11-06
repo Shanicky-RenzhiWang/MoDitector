@@ -1,0 +1,35 @@
+defaults:
+  - _self_
+  - server_configs: fuzzing
+
+# root folders
+project_root: /home/erdos/workspace/ADSFuzzer
+save_root: /home/erdos/workspace/results/ADSFuzzer/debug_testing
+save_root_testing: ${save_root}/testing
+
+# runner
+log_level: 'DEBUG'
+resume: true
+random_seed: 1000
+timeout: 600 # watchdog timeout
+debug: false
+record: false # carla record
+
+# testing (fuzzing)
+entry_point_fuzzer: fuzzer.suites:RootCauseFuzzer
+entry_point_scenario: scenario.pattern:WaypointScenario
+entry_point_target_agent: ads.systems.Pylot.ERDOSRootCauseAgent:ERDOSRootCauseAgent
+config_target_agent: /home/erdos/workspace/ADSFuzzer/configs/pylot_configs/obstacle_double_RootCauseFuzzer.conf
+time_limit: 12
+seed_path: /home/erdos/workspace/ADSFuzzer/data/seeds/obstacle_double.json
+# mutator:
+mutator_vehicle_num: 10
+mutator_walker_num: 10
+mutator_static_num: 0
+
+# env config
+gpu: 2
+
+hydra:
+  job:
+    chdir: True

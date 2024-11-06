@@ -1,0 +1,11 @@
+repair:
+  - port: 11000
+    gpu: 2
+    path: /home/erdos/workspace/pylot/dependencies/CARLA_0.9.10.1
+#  - port: 10040
+#    gpu: 2
+#    path: /home/erdos/workspace/pylot/dependencies/CARLA_0.9.10.1
+evaluator:
+  port: 12000
+  gpu: 2
+  path: /home/erdos/workspace/pylot/dependencies/CARLA_0.9.10.1

@@ -1,0 +1,4 @@
+evaluator:
+  port: 12000
+  gpu: 2
+  path: /home/erdos/workspace/pylot/dependencies/CARLA_0.9.10.1

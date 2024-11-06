@@ -1,0 +1,307 @@
+{
+    "id": "obstacle_single_lane",
+    "ego_section": {
+        "agents": [
+            {
+                "id": "ego_1",
+                "object_info": {
+                    "model": "vehicle.lincoln.mkz2017",
+                    "rolename": "hero",
+                    "color": null,
+                    "category": "vehicle"
+                },
+                "route": [
+                    {
+                        "position": {
+                            "x": 338.70819091796875,
+                            "y": 317.451171875,
+                            "z": 0.0,
+                            "pitch": 360.0,
+                            "yaw": 270.03460693359375,
+                            "roll": 0.0
+                        },
+                        "speed": 0.0
+                    },
+                    {
+                        "position": {
+                            "x": 338.7112121582031,
+                            "y": 312.451171875,
+                            "z": 0.0,
+                            "pitch": 360.0,
+                            "yaw": 270.03460693359375,
+                            "roll": 0.0
+                        },
+                        "speed": 0.0
+                    },
+                    {
+                        "position": {
+                            "x": 338.7142333984375,
+                            "y": 307.451171875,
+                            "z": 0.0,
+                            "pitch": 360.0,
+                            "yaw": 270.03460693359375,
+                            "roll": 0.0
+                        },
+                        "speed": 0.0
+                    },
+                    {
+                        "position": {
+                            "x": 338.7172546386719,
+                            "y": 302.451171875,
+                            "z": 0.0,
+                            "pitch": 360.0,
+                            "yaw": 270.03460693359375,
+                            "roll": 0.0
+                        },
+                        "speed": 0.0
+                    },
+                    {
+                        "position": {
+                            "x": 338.72027587890625,
+                            "y": 297.451171875,
+                            "z": 0.0,
+                            "pitch": 360.0,
+                            "yaw": 270.03460693359375,
+                            "roll": 0.0
+                        },
+                        "speed": 0.0
+                    },
+                    {
+                        "position": {
+                            "x": 338.7232971191406,
+                            "y": 292.451171875,
+                            "z": 0.0,
+                            "pitch": 360.0,
+                            "yaw": 270.03460693359375,
+                            "roll": 0.0
+                        },
+                        "speed": 0.0
+                    },
+                    {
+                        "position": {
+                            "x": 338.7262878417969,
+                            "y": 287.451171875,
+                            "z": 0.0,
+                            "pitch": 360.0,
+                            "yaw": 270.03460693359375,
+                            "roll": 0.0
+                        },
+                        "speed": 0.0
+                    },
+                    {
+                        "position": {
+                            "x": 338.72930908203125,
+                            "y": 282.451171875,
+                            "z": 0.0,
+                            "pitch": 360.0,
+                            "yaw": 270.03460693359375,
+                            "roll": 0.0
+                        },
+                        "speed": 0.0
+                    },
+                    {
+                        "position": {
+                            "x": 338.7323303222656,
+                            "y": 277.451171875,
+                            "z": 0.0,
+                            "pitch": 360.0,
+                            "yaw": 270.03460693359375,
+                            "roll": 0.0
+                        },
+                        "speed": 0.0
+                    },
+                    {
+                        "position": {
+                            "x": 338.7353515625,
+                            "y": 272.451171875,
+                            "z": 0.0,
+                            "pitch": 360.0,
+                            "yaw": 270.03460693359375,
+                            "roll": 0.0
+                        },
+                        "speed": 0.0
+                    },
+                    {
+                        "position": {
+                            "x": 338.7383728027344,
+                            "y": 267.451171875,
+                            "z": 0.0,
+                            "pitch": 360.0,
+                            "yaw": 270.03460693359375,
+                            "roll": 0.0
+                        },
+                        "speed": 0.0
+                    },
+                    {
+                        "position": {
+                            "x": 338.74139404296875,
+                            "y": 262.451171875,
+                            "z": 0.0,
+                            "pitch": 360.0,
+                            "yaw": 270.03460693359375,
+                            "roll": 0.0
+                        },
+                        "speed": 0.0
+                    },
+                    {
+                        "position": {
+                            "x": 338.7444152832031,
+                            "y": 257.451171875,
+                            "z": 0.0,
+                            "pitch": 360.0,
+                            "yaw": 270.03460693359375,
+                            "roll": 0.0
+                        },
+                        "speed": 0.0
+                    },
+                    {
+                        "position": {
+                            "x": 338.7474365234375,
+                            "y": 252.45115661621094,
+                            "z": 0.0,
+                            "pitch": 360.0,
+                            "yaw": 270.03460693359375,
+                            "roll": 0.0
+                        },
+                        "speed": 0.0
+                    },
+                    {
+                        "position": {
+                            "x": 338.7504577636719,
+                            "y": 247.45115661621094,
+                            "z": 0.0,
+                            "pitch": 360.0,
+                            "yaw": 270.03460693359375,
+                            "roll": 0.0
+                        },
+                        "speed": 0.0
+                    },
+                    {
+                        "position": {
+                            "x": 338.75347900390625,
+                            "y": 242.45115661621094,
+                            "z": 0.0,
+                            "pitch": 360.0,
+                            "yaw": 270.03460693359375,
+                            "roll": 0.0
+                        },
+                        "speed": 0.0
+                    },
+                    {
+                        "position": {
+                            "x": 338.7565002441406,
+                            "y": 237.45115661621094,
+                            "z": 0.0,
+                            "pitch": 360.0,
+                            "yaw": 270.03460693359375,
+                            "roll": 0.0
+                        },
+                        "speed": 0.0
+                    },
+                    {
+                        "position": {
+                            "x": 338.759521484375,
+                            "y": 232.45115661621094,
+                            "z": 0.0,
+                            "pitch": 360.0,
+                            "yaw": 270.03460693359375,
+                            "roll": 0.0
+                        },
+                        "speed": 0.0
+                    },
+                    {
+                        "position": {
+                            "x": 338.7625427246094,
+                            "y": 227.45115661621094,
+                            "z": 0.0,
+                            "pitch": 360.0,
+                            "yaw": 270.03460693359375,
+                            "roll": 0.0
+                        },
+                        "speed": 0.0
+                    },
+                    {
+                        "position": {
+                            "x": 338.76556396484375,
+                            "y": 222.45115661621094,
+                            "z": 0.0,
+                            "pitch": 360.0,
+                            "yaw": 270.03460693359375,
+                            "roll": 0.0
+                        },
+                        "speed": 0.0
+                    },
+                    {
+                        "position": {
+                            "x": 338.7685852050781,
+                            "y": 217.45115661621094,
+                            "z": 0.0,
+                            "pitch": 360.0,
+                            "yaw": 270.03460693359375,
+                            "roll": 0.0
+                        },
+                        "speed": 0.0
+                    }
+                ],
+                "mutable": false,
+                "trigger_time": 0.0
+            }
+        ],
+        "_BasicSection__ids": [
+            "ego_1"
+        ],
+        "_BasicSection__fixed_ids": [
+            "ego_1"
+        ],
+        "_BasicSection__mutant_ids": [],
+        "id_base": 0
+    },
+    "vehicle_section": {
+        "agents": [],
+        "_BasicSection__ids": [],
+        "_BasicSection__fixed_ids": [],
+        "_BasicSection__mutant_ids": [],
+        "id_base": 10000
+    },
+    "walker_section": {
+        "agents": [],
+        "_BasicSection__ids": [],
+        "_BasicSection__fixed_ids": [],
+        "_BasicSection__mutant_ids": [],
+        "id_base": 70000
+    },
+    "static_section": {
+        "agents": [],
+        "_BasicSection__ids": [],
+        "_BasicSection__fixed_ids": [],
+        "_BasicSection__mutant_ids": [],
+        "id_base": 40000
+    },
+    "weather_section": {
+        "cloudiness": 15.0,
+        "precipitation": 0.0,
+        "precipitation_deposits": 0.0,
+        "wind_intensity": 0.35,
+        "sun_azimuth_angle": 45.0,
+        "sun_altitude_angle": 15.0,
+        "fog_density": 0.0,
+        "fog_distance": 0.0,
+        "wetness": 0.0,
+        "fog_falloff": 0.0
+    },
+    "map_section": {
+        "town": "Town01",
+        "lanes_vehicle": [
+            "19_-1",
+            "19_1",
+            "163_-1",
+            "169_-1"
+        ],
+        "lanes_static": [
+            "19_-1",
+            "19_1"
+        ],
+        "nodes_walker": [],
+        "edges_walker": []
+    }
+}

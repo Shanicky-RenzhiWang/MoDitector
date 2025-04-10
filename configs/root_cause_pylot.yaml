@@ -3,8 +3,8 @@ defaults:
   - server_configs: fuzzing
 
 # root folders
-project_root: /home/erdos/workspace/ADSFuzzer
-save_root: /home/erdos/workspace/results/ADSFuzzer/debug_testing
+project_root: /home/erdos/workspace/MoDitector
+save_root: /home/erdos/workspace/results/MoDitector/debug_testing
 save_root_testing: ${save_root}/testing
 
 # runner
@@ -19,9 +19,9 @@ record: false # carla record
 entry_point_fuzzer: fuzzer.suites:RootCauseFuzzer
 entry_point_scenario: scenario.pattern:WaypointScenario
 entry_point_target_agent: ads.systems.Pylot.ERDOSRootCauseAgent:ERDOSRootCauseAgent
-config_target_agent: /home/erdos/workspace/ADSFuzzer/ads/systems/Pylot/pylot_configs/root_cause_gt_perception.conf
+config_target_agent: /home/erdos/workspace/MoDitector/ads/systems/Pylot/pylot_configs/root_cause_gt_perception.conf
 time_limit: 12
-seed_path: /home/erdos/workspace/ADSFuzzer/data/seeds/highway_enter_bak.json
+seed_path: /home/erdos/workspace/MoDitector/data/seeds/highway_enter_bak.json
 # mutator:
 mutator_vehicle_num: 10
 mutator_walker_num: 10

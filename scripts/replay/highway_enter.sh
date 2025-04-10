@@ -3,8 +3,8 @@ export TF_CPP_MIN_LOG_LEVEL=1
 WORKSPACE=/home/${USER}/workspace
 PYLOT_PATH="${WORKSPACE}/pylot"
 export PYTHONPATH=$PYLOT_PATH:$PYTHONPATH
-project_root=${WORKSPACE}/ADSFuzzer
-save_root="${WORKSPACE}/results/ADSFuzzer/data_collection"
+project_root=${WORKSPACE}/MoDitector
+save_root="${WORKSPACE}/results/MoDitector/data_collection"
 
 GPU=0
 server_config='fuzzing_process_2'
@@ -25,7 +25,7 @@ entry_point_target_agent='ads.systems.Pylot.ERDOSRootCauseAgent:ERDOSRootCauseAg
 # config_target_agent=${project_root}/ads/systems/Pylot/pylot_configs/perfect_detection_pylot.conf
 config_target_agent=${project_root}/ads/systems/Pylot/pylot_configs/root_cause.conf
 
-fuzzer_config_file="${WORKSPACE}/ADSFuzzer/configs/root_cause_pylot.yaml"
+fuzzer_config_file="${WORKSPACE}/MoDitector/configs/root_cause_pylot.yaml"
 # fuzzing_name='RootCauseFuzzer'
 # entry_point_fuzzer='fuzzer.suites:RootCauseFuzzer'
 
@@ -33,7 +33,7 @@ fuzzing_name='ReplayRunner'
 entry_point_fuzzer='fuzzer.suites:ReplayRunner'
 
 
-# fuzzer_config_file="${WORKSPACE}/ADSFuzzer/configs/${config_used}.yaml"
+# fuzzer_config_file="${WORKSPACE}/MoDitector/configs/${config_used}.yaml"
 # fuzzing_name='RandomFuzzer'
 # entry_point_fuzzer='fuzzer.suites:BehAVExplor'
 

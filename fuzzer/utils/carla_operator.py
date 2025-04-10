@@ -34,7 +34,7 @@ class CarlaOperator:
 
     def _start_operation(self, wait_time=5.0):
         cmd = (f"CUDA_VISIBLE_DEVICES={self.gpu} SDL_VIDEODRIVER=offscreen "
-               f"bash {os.path.join(self.carla_path, 'CarlaUE4.sh')} "
+               "bash ${PYLOT_CARLA_HOME}/CarlaUE4.sh "
                f"-nosound -prefernvidia -carla-rpc-port={self.port} -fps=20")
         server_process = subprocess.Popen(cmd, shell=True, preexec_fn=os.setsid)
         logger.info(cmd)

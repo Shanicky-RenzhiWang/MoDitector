@@ -1,0 +1,37 @@
+
+ ======= Results of Scenario: WaypointScenario ---- [92mSUCCESS[0m =======
+
+ > Ego vehicles:
+Actor(id=1214, type=vehicle.lincoln.mkz2017); 
+
+ > Other actors:
+Actor(id=1215, type=vehicle.toyota.prius); Actor(id=1216, type=vehicle.bh.crossbike); Actor(id=1217, type=vehicle.audi.a2); Actor(id=1218, type=vehicle.seat.leon); Actor(id=1219, type=vehicle.nissan.micra); Actor(id=1220, type=vehicle.audi.a2); Actor(id=1221, type=vehicle.citroen.c3); Actor(id=1222, type=vehicle.tesla.cybertruck); Actor(id=1223, type=vehicle.diamondback.century); Actor(id=1224, type=vehicle.nissan.patrol); 
+
+ > Simulation Information
+╒═════════════════════════════════╤═════════════════════╕
+│ Start Time                      │ 2025-04-10 03:27:29 │
+├─────────────────────────────────┼─────────────────────┤
+│ End Time                        │ 2025-04-10 03:34:14 │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (System Time)          │ 404.54s             │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (Game Time)            │ 24.25s              │
+├─────────────────────────────────┼─────────────────────┤
+│ Ratio (System Time / Game Time) │ 0.06s               │
+╘═════════════════════════════════╧═════════════════════╛
+
+ > Criteria Information
+╒═══════════════════════════╤═════════════════════════════╤═════════╤══════════════╤════════════════╕
+│ Actor                     │ Criterion                   │ Result  │ Actual Value │ Expected Value │
+├───────────────────────────┼─────────────────────────────┼─────────┼──────────────┼────────────────┤
+│ lincoln.mkz2017 (id=1214) │ ReachDestinationTest (Req.) │ SUCCESS │ 0            │ 100            │
+├───────────────────────────┼─────────────────────────────┼─────────┼──────────────┼────────────────┤
+│ lincoln.mkz2017 (id=1214) │ CollisionTest (Req.)        │ SUCCESS │ 0            │ 0              │
+├───────────────────────────┼─────────────────────────────┼─────────┼──────────────┼────────────────┤
+│ lincoln.mkz2017 (id=1214) │ AgentBlockedTest (Req.)     │ SUCCESS │ 0            │ 0              │
+├───────────────────────────┼─────────────────────────────┼─────────┼──────────────┼────────────────┤
+│                           │ Timeout (Req.)              │ SUCCESS │ 24.25        │ 600.0          │
+├───────────────────────────┼─────────────────────────────┼─────────┼──────────────┼────────────────┤
+│                           │ GLOBAL RESULT               │ [92mSUCCESS[0m │              │                │
+╘═══════════════════════════╧═════════════════════════════╧═════════╧══════════════╧════════════════╛
+ ===========================================================================

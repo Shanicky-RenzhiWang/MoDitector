@@ -3,8 +3,8 @@ defaults:
   - server_configs: evaluator
 
 # root folders
-project_root: /home/erdos/workspace/ADSFuzzer
-save_root: /home/erdos/workspace/results/ADSFuzzer/debug_rl
+project_root: /home/erdos/workspace/MoDitector
+save_root: /home/erdos/workspace/results/MoDitector/debug_rl
 save_root_evaluator: ${save_root}/rl_evaluator
 
 # runner

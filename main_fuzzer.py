@@ -7,7 +7,6 @@ from loguru import logger
 from omegaconf import DictConfig, OmegaConf
 
 
-# export CARLA_FUZZER_ROOT=/home/erdos/workspace/CarlaFuzzer
 def load_entry_point(name):
     mod_name, attr_name = name.split(":")
     mod = import_module(mod_name)

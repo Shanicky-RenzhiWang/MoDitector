@@ -1,5 +1,4 @@
 from omegaconf import DictConfig
-from py import log
 from .. import BaseFuzzer
 from ..mutator import ScenarioMutator
 from scenario.configuration import ScenarioConfig, SeedConfig
@@ -11,7 +10,6 @@ import copy
 import numpy as np
 from ..utils.fileUtil import save_obj, load_obj, get_most_recent_folder
 from ..root_cause_util.root_cause_ana import StatHandler
-import random
 from time import time
 
 class RootCauseFuzzer(BaseFuzzer):
@@ -79,7 +77,7 @@ class RootCauseFuzzer(BaseFuzzer):
                 with open(os.path.join(self.runner_msg_folder, f'{mutated_seed.id}.json'), 'w') as f:
                     json.dump(runner_message, f, indent=4)
 
-                # base_output_dir = '/home/erdos/workspace/ADSFuzzer/outputs'
+                # base_output_dir = '/home/erdos/workspace/MoDitector/outputs'
                 # most_recent_date_folder = get_most_recent_folder(base_output_dir)
                 # most_recent_time_folder = get_most_recent_folder(os.path.join(base_output_dir,most_recent_date_folder))
                 # log_file = os.path.join(base_output_dir, most_recent_date_folder, most_recent_time_folder, 'pylot.log')
@@ -155,7 +153,7 @@ class RootCauseFuzzer(BaseFuzzer):
             feedback_time = time()
             self.times['feedback'].append(feedback_time-simulation_time)
 
-            # base_output_dir = '/home/erdos/workspace/ADSFuzzer/outputs'
+            # base_output_dir = '/home/erdos/workspace/MoDitector/outputs'
             # most_recent_date_folder = get_most_recent_folder(base_output_dir)
             # most_recent_time_folder = get_most_recent_folder(os.path.join(base_output_dir,most_recent_date_folder))
             # log_file = os.path.join(base_output_dir, most_recent_date_folder, most_recent_time_folder, 'pylot.log')

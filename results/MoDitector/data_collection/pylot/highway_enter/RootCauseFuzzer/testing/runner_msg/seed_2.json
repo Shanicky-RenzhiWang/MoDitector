@@ -1,0 +1,38 @@
+{
+    "message": "success runner",
+    "result": {
+        "status": "Completed",
+        "meta": {
+            "duration_system": 611.5442700386047,
+            "duration_game": 35.35000052675605
+        },
+        "infractions": {
+            "collisions_layout": [],
+            "collisions_pedestrian": [],
+            "collisions_vehicle": [
+                "Agent collided against object with type=vehicle.chevrolet.impala and id=893 at (x=15.635, y=0.02, z=0.034, t=706.0000105202198)"
+            ],
+            "vehicle_blocked": [],
+            "route_timeout": [],
+            "collision_timestamp": [
+                706
+            ]
+        },
+        "fitness": [
+            [
+                "CollisionFitness",
+                0.0
+            ],
+            [
+                "ReachDestinationFitness",
+                8.973667261178393
+            ],
+            [
+                "BlockingFitness",
+                0.94833333256344
+            ]
+        ],
+        "id": "seed_2",
+        "timestamp": 1744277234.915376
+    }
+}

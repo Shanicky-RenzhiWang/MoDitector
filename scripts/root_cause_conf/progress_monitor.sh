@@ -2,8 +2,8 @@
 
 LINES_TO_CHECK=5
 
-log_folder="/home/erdos/workspace/ADSFuzzer/scripts/root_cause_conf/log"
-config_file="/home/erdos/workspace/ADSFuzzer/scripts/root_cause_conf/sup/supervisord_project.conf"
+log_folder="/home/erdos/workspace/MoDitector/scripts/root_cause_conf/log"
+config_file="/home/erdos/workspace/MoDitector/scripts/root_cause_conf/sup/supervisord_project.conf"
 
 program_lst=("highway_exit" "highway_enter" "intersection_left" "intersection_right")
 #"roach_collector_intersection_left roach_collector_highway_exit roach_collector_intersection_straight"

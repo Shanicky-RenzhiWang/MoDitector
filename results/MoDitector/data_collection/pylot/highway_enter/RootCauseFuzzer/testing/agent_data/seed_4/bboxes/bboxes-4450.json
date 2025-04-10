@@ -1,0 +1,1 @@
+[{"label": "motorcycle", "detailed_label": "", "id": 31, "bounding_box": [[1291, 552], [1330, 591]]}, {"label": "car", "detailed_label": "", "id": 32, "bounding_box": [[1200, 554], [1235, 568]]}, {"label": "bicycle", "detailed_label": "", "id": 33, "bounding_box": [[1297, 551], [1326, 593]]}]

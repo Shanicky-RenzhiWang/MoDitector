@@ -1,0 +1,37 @@
+
+ ======= Results of Scenario: WaypointScenario ---- [92mSUCCESS[0m =======
+
+ > Ego vehicles:
+Actor(id=566, type=vehicle.lincoln.mkz2017); 
+
+ > Other actors:
+Actor(id=567, type=vehicle.chevrolet.impala); Actor(id=568, type=vehicle.bh.crossbike); Actor(id=569, type=vehicle.chevrolet.impala); Actor(id=570, type=vehicle.nissan.patrol); Actor(id=571, type=vehicle.carlamotors.carlacola); Actor(id=572, type=vehicle.bh.crossbike); Actor(id=573, type=vehicle.bh.crossbike); Actor(id=574, type=vehicle.mini.cooperst); Actor(id=575, type=vehicle.citroen.c3); Actor(id=576, type=vehicle.bmw.grandtourer); 
+
+ > Simulation Information
+╒═════════════════════════════════╤═════════════════════╕
+│ Start Time                      │ 2025-04-10 03:13:14 │
+├─────────────────────────────────┼─────────────────────┤
+│ End Time                        │ 2025-04-10 03:16:49 │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (System Time)          │ 215.45s             │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (Game Time)            │ 12.55s              │
+├─────────────────────────────────┼─────────────────────┤
+│ Ratio (System Time / Game Time) │ 0.058s              │
+╘═════════════════════════════════╧═════════════════════╛
+
+ > Criteria Information
+╒══════════════════════════╤═════════════════════════════╤═════════╤══════════════╤════════════════╕
+│ Actor                    │ Criterion                   │ Result  │ Actual Value │ Expected Value │
+├──────────────────────────┼─────────────────────────────┼─────────┼──────────────┼────────────────┤
+│ lincoln.mkz2017 (id=566) │ ReachDestinationTest (Req.) │ SUCCESS │ 0            │ 100            │
+├──────────────────────────┼─────────────────────────────┼─────────┼──────────────┼────────────────┤
+│ lincoln.mkz2017 (id=566) │ CollisionTest (Req.)        │ SUCCESS │ 0            │ 0              │
+├──────────────────────────┼─────────────────────────────┼─────────┼──────────────┼────────────────┤
+│ lincoln.mkz2017 (id=566) │ AgentBlockedTest (Req.)     │ SUCCESS │ 0            │ 0              │
+├──────────────────────────┼─────────────────────────────┼─────────┼──────────────┼────────────────┤
+│                          │ Timeout (Req.)              │ SUCCESS │ 12.55        │ 600.0          │
+├──────────────────────────┼─────────────────────────────┼─────────┼──────────────┼────────────────┤
+│                          │ GLOBAL RESULT               │ [92mSUCCESS[0m │              │                │
+╘══════════════════════════╧═════════════════════════════╧═════════╧══════════════╧════════════════╛
+ ===========================================================================

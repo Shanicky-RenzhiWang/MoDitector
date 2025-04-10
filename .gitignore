@@ -164,3 +164,4 @@ cython_debug/
 log/*
 outputs/*
 results/*
+configs/*

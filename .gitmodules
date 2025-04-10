@@ -1,0 +1,3 @@
+[submodule "ads/systems/Pylot_project"]
+	path = ads/systems/Pylot_project
+	url = https://github.com/Shanicky-RenzhiWang/pylot.git

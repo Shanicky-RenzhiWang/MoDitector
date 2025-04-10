@@ -1,1 +1,0 @@
-["Obstacle Obstacle(id: 213, label: car, confidence: 0, bbox: BoundingBox2D(xmin: 932, xmax: 1001, ymin: 548, ymax: 601)) at Transform(location: Location(x=15.6015625, y=46.71875, z=0.81201171875), rotation: Rotation(pitch=0, yaw=0, roll=0)), trajectory [Transform(location: Location(x=29.890625, y=0.1925048828125, z=0.77197265625), rotation: Rotation(pitch=0, yaw=0, roll=0))]"]

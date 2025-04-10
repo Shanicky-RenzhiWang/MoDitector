@@ -3,9 +3,9 @@ export TF_CPP_MIN_LOG_LEVEL=1
 WORKSPACE=${PWD}
 PYLOT_PATH="${WORKSPACE}/ads/systems/Pylot_project"
 export PYLOT_HOME="${PYLOT_PATH}"
-export PYTHONPATH=$PYLOT_PATH:$PYTHONPATH:$PYLOT_PATH/dependencies
 save_root="${WORKSPACE}/results/MoDitector/data_collection"
 export PYLOT_CARLA_HOME="${PYLOT_PATH}/dependencies/CARLA_0.9.10.1"
+export PYTHONPATH=$PYLOT_PATH:$PYTHONPATH:$PYLOT_PATH/dependencies:${PYLOT_CARLA_HOME}/PythonAPI/carla/dist/carla-0.9.10-py3.7-linux-x86_64.egg:${PYLOT_CARLA_HOME}/PythonAPI/carla/agents
 
 GPU=0
 server_config='fuzzing_process_1'
